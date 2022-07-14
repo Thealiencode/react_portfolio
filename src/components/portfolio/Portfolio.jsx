@@ -5,9 +5,17 @@ import dexter from '../../assets/brandingdexter.png'
 import testpro from '../../assets/testpro.png'
 import alien from '../../assets/alien.png'
 import PortfolioCard from './PortfolioCard'
+import cryptocheif from '../../assets/cryptocheif.png'
+import qrcomposer from '../../assets/qrcomposer.png'
 
 const Portfolio = () => {
   const portfolio = [
+    {
+      title :'Cryptochief',
+      github: 'https://github.com/Thealiencode/cryptochief',
+      demo: 'https://cryptochief.netlify.app/',
+      image: cryptocheif
+    },
     {
       title :'Cmeduconsult',
       github: '',
@@ -37,6 +45,12 @@ const Portfolio = () => {
       github: 'https://github.com/Thealiencode/resume',
       demo: 'https://alien-resume.herokuapp.com',
       image: alien
+    },
+    {
+      title :'QR composer',
+      github: 'https://github.com/Thealiencode/https://github.com/Thealiencode/qrcomposer',
+      demo: 'https://alien-resume.https://qrcomposer.herokuapp.com/.com',
+      image: qrcomposer
     },
   ];
 
